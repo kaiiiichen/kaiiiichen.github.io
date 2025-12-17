@@ -1,3 +1,5 @@
 ---
-title: Projects
+title: "Projects"
+description: "Selected projects and ongoing work"
 ---
+

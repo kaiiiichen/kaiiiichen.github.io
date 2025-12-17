@@ -1,4 +1,5 @@
 ---
-title: Search
-layout: search
+title: "Search"
+layout: "search"
 ---
+
