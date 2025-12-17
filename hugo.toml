@@ -7,10 +7,10 @@ enableRobotsTXT = true
 
 [params]
   env = "production"
-  description = "Mathematics · AI"
+  description = "Mathematics"
   defaultTheme = "auto"
   ShowReadingTime = true
-  ShowShareButtons = false
+  ShowShareButtons = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
   ShowToc = true
@@ -20,7 +20,7 @@ enableRobotsTXT = true
   [params.profileMode]
     enabled = true
     title = "Kai Chen"
-    subtitle = "Mathematics · AI"
+    subtitle = "Mathematics"
     imageWidth = 0
     imageHeight = 0
 
@@ -38,7 +38,7 @@ enableRobotsTXT = true
 
   [[params.socialIcons]]
     name = "linkedin"
-    url = "https://www.linkedin.com/"
+    url = "https://www.linkedin.com/in/kaichen2005/"
 
 [menu]
   [[menu.main]]
