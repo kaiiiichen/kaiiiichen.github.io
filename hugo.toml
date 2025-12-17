@@ -16,6 +16,7 @@ enableRobotsTXT = true
   ShowToc = true
   TocOpen = false
   disableThemeToggle = false
+  ShowSearch = true
 
   [params.profileMode]
     enabled = true
@@ -82,3 +83,6 @@ enableRobotsTXT = true
     name = "Search"
     url = "/search/"
     weight = 7
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
