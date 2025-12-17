@@ -95,3 +95,8 @@ favicon32x32 = "/favicon-32x32.png"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
