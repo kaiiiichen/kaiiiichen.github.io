@@ -28,6 +28,10 @@ enableRobotsTXT = true
     [[params.profileMode.buttons]]
       name = "Notes"
       url = "/notes/"
+      
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects/"
 
     [[params.profileMode.buttons]]
       name = "Blog"
