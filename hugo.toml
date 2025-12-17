@@ -44,7 +44,7 @@ enableRobotsTXT = true
     
   [[params.socialIcons]]
     name = "email"
-    url = "kaichen0728@gmail.com"
+    url = "mailto:kaichen0728@gmail.com"
 
 [menu]
   [[menu.main]]
