@@ -1,3 +1,84 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://kai-chen.xyz/"
+title = "Kai Chen"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+enableRobotsTXT = true
+
+[params]
+  env = "production"
+  description = "Mathematics · AI"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  disableThemeToggle = false
+
+  [params.profileMode]
+    enabled = true
+    title = "Kai Chen"
+    subtitle = "Mathematics · AI"
+    imageWidth = 0
+    imageHeight = 0
+
+    [[params.profileMode.buttons]]
+      name = "Notes"
+      url = "/notes/"
+
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "/blog/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/kaiiiichen"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "notes"
+    name = "Notes"
+    url = "/notes/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 6
+
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 7
