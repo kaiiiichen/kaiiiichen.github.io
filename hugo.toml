@@ -17,7 +17,6 @@ enableRobotsTXT = true
   TocOpen = false
   disableThemeToggle = false
   ShowSearch = true
-  favicon = "favicon.ico"
 
   [params.profileMode]
     enabled = true
@@ -45,6 +44,11 @@ enableRobotsTXT = true
   [[params.socialIcons]]
     name = "email"
     url = "mailto:kaichen0728@gmail.com"
+
+[params.assets]
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
 
 [menu]
   [[menu.main]]
