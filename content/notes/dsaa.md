@@ -3,6 +3,14 @@ title: "Data Structures & Algorithm Analysis"
 tags: ["computer-science", "algorithms", "data-structures"]
 ---
 
-📄 **PDF**: [View / Download](/pdf/DSAA.pdf)
+## Notes (PDF)
 
-Notes covering algorithmic complexity and core data structures.
+<iframe
+  src="/pdf/DSAA.pdf"
+  width="100%"
+  height="800px"
+  style="border: none;">
+</iframe>
+
+[⬇ Download PDF](/pdf/DSAA.pdf)
+

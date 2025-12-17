@@ -3,6 +3,14 @@ title: "Real Analysis"
 tags: ["math", "analysis"]
 ---
 
-📄 **PDF**: [View / Download](/pdf/RA.pdf)
+## Notes (PDF)
 
-Lecture-style notes on real analysis, measure theory, and integration.
+<iframe
+  src="/pdf/RA.pdf"
+  width="100%"
+  height="800px"
+  style="border: none;">
+</iframe>
+
+[⬇ Download PDF](/pdf/RA.pdf)
+
