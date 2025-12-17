@@ -5,7 +5,13 @@ tags: ["math", "analysis"]
 summary: "Take a dive into Lebesgue's measure theory."
 ---
 
-## Notes (PDF)
+### Status
+
+Ongoing (Close to finish).
+
+---
+
+### Notes (PDF)
 
 <iframe
   src="/pdf/RA.pdf"

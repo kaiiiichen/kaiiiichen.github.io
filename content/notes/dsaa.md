@@ -6,7 +6,13 @@ summary: "Make your first encounter with algorithms' design and analysis, and se
 ---
 
 
-## Notes (PDF)
+### Status
+
+Ongoing (very close to finish).
+
+---
+
+### Notes (PDF)
 
 <iframe
   src="/pdf/DSAA.pdf"
