@@ -84,17 +84,17 @@ favicon32x32 = "/favicon-32x32.png"
     name = "Blog"
     url = "/blog/"
     weight = 5
+    
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 6
 
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 6
-
-  [[menu.main]]
-    identifier = "search"
-    name = "Search"
-    url = "/search/"
     weight = 7
 
 [outputs]
