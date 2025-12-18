@@ -2,16 +2,15 @@
 title: "About"
 ---
 
-I am **Kai Chen**, an undergraduate student in **Mathematics and Applied Mathematics** at the
-**Southern University of Science and Technology (SUSTech)** in Shenzhen, China, enrolled in the *Fields Honors Program*.
+I am **Kai Chen**, an undergraduate student in Mathematics and Applied Mathematics at the
+Southern University of Science and Technology (SUSTech) in Shenzhen, China, enrolled in the *Fields Honors Program*.
 
-My academic interests lie at the intersection of **mathematical analysis**, **probability**, and **machine learning**, with a particular focus on building rigorous mathematical understanding while remaining attentive to computational and applied perspectives. I am especially interested in how analytical tools and probabilistic structures inform modern learning systems.
+I experienced serious mathematical trainings in understanding abstract concepts and writing proofs, including being exposed to some practical numerical methods. You could see coursework I did in my notes project [SUSTech-Kai-Notes](https://github.com/kaiiiichen/SUSTech-Kai-Notes/wiki).
 
-I have completed over ten core mathematics courses, including multiple honours-level subjects, and am currently undertaking advanced coursework in **Real Analysis (Honours)**, **Partial Differential Equations (Honours)**, and **Stochastic Processes (Graduate-level)**. Alongside theoretical training, I have developed experience in programming and machine learning, including hands-on work with deep generative models such as VAEs, GANs, and diffusion models during the **LMH Summer Program in Advanced AI & ML** at the University of Oxford.
+I'm currently interested in formalizing mathematical proofs using programming languages and how can reinforcement learning models utilize such tools to write rigorous proofs in mathematics.
 
-In addition to academic study, I am actively involved in **teaching, peer mentoring, and student leadership**. I have served as a peer mentor and as President of the SUSTech Psychology Society, contributing to peer-support initiatives and mental health education on campus. I am also a certified Red Cross First Aider and have participated in campus-wide volunteer and emergency training activities.
+Also, I'm keen on cognitive sciences, which I believe is the most important thing us humans should do and make clear before we are really capable of making artificial general intelligence which is actually another form of life.
 
-I will be a **visiting undergraduate student at the University of California, Berkeley** from January to May 2026, where I plan to further explore advanced mathematics, machine learning, and cognitive science.
+I will be a visiting undergraduate student at the University of California, Berkeley from January to May 2026, where I plan to further explore advanced mathematics, machine learning, and cognitive science.
 
-This website serves as a personal academic space to host **notes**, **projects**, and **learning materials**, with an emphasis on clarity, structure, and long-term reuse.
-
+This website serves as a personal academic space to host notes, projects, and blog, with an emphasis on clarity, structure, and long-term reuse.
