@@ -1,6 +1,6 @@
 ---
-
-## title: "About"
+title: "About"
+---
 
 I am **Kai Chen**, an undergraduate student in **Mathematics and Applied Mathematics** at the
 **Southern University of Science and Technology (SUSTech)** in Shenzhen, China, enrolled in the *Fields Honors Program*.
