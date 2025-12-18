@@ -7,7 +7,7 @@ summary: "A terminal-style Sudoku experience for iOS, designed for logical puris
 
 **SudoSodoku** is a minimalist, keyboard-centric (conceptually) puzzle game that brings the Linux terminal aesthetic to your iPhone. It features a robust puzzle generator, an ELO rating system, and a "Juice" interaction model with haptic feedback.
 
-## **✨ Features**
+### **✨ Features**
 
 - **Terminal Aesthetic**: Green phosphor look on deep dark background (#0D121A).
 - **Infinite Puzzles**: Real-time Sudoku generator with unique solutions.
@@ -24,7 +24,7 @@ summary: "A terminal-style Sudoku experience for iOS, designed for logical puris
   - **iCloud Sync**: (Optional) Cross-device save data synchronization.
   - **Haptics**: Satisfying mechanical feedback.
 
-## **🛠️ Architecture**
+### **🛠️ Architecture**
 
 - **Language**: Swift 5
 - **UI Framework**: SwiftUI
