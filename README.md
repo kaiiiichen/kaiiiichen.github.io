@@ -1,1 +1,1 @@
-# [kaiiiichen.github.io](https://kai-chen.xyz)
+# [kai-chen.xyz](https://kai-chen.xyz)
