@@ -5,8 +5,15 @@ tags: ["projects", "mathematics", "computer-science"]
 summary: "A personal notes initiative."
 ---
 
+### Last Updated
+
+2025.12.17
+
+---
+
 I accompany this special notes project with a Github wiki page, which reviews the project and helps you get directed to submodules within clicks.
 
+---
 
 ### Resources
 
