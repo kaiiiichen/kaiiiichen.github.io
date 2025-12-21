@@ -1,7 +1,7 @@
 ---
 title: "SUSTech-Kai-Notes"
-date: 2025-12-17
-tags: ["projects", "mathematics", "computer-science"]
+date: 2025-04-13
+tags: ["projects", "mathematics", "computer-science", "statistics"]
 summary: "A personal notes initiative."
 ---
 

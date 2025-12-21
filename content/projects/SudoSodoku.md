@@ -1,6 +1,6 @@
 ---
 title: "SudoSodoku"
-date: 2025-12-18
+date: 2025-12-05
 tags: ["projects", "swift development", "ios development"]
 summary: "A terminal-style Sudoku experience for iOS, designed for logical purists."
 ---
