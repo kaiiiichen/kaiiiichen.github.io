@@ -58,43 +58,6 @@ SudoSodoku is built with **pure SwiftUI**, following a strict **MVVM (Model-View
   * Automatic migration logic for schema updates (e.g., v3 \-\> v4 data migration).  
 * **Input Handling**: Custom gesture recognizers to solve conflict issues between "Jelly" animations and selection logic.
 
-## **🚀 Building the Project**
-
-1. **Clone the repository**:  
-  ```bash
-  git clone https://github.com/kaiiiichen/SudoSodoku.git
-  ```
-
-2. Open in Xcode:  
-   Double-click SudokuMVP.xcodeproj. Ensure you have Xcode 15.0+ installed.  
-3. **Configure Signing**:  
-   * Go to the Project Navigator (blue icon).  
-   * Select the SudokuMVP target.  
-   * Click **Signing & Capabilities**.  
-   * Change the **Team** to your own Apple Developer account.  
-   * *Note: If you are on a Free Developer Account, iCloud capabilities will be disabled. The app will automatically fallback to local storage.*  
-4. Run:  
-   Connect your iPhone or select a Simulator and press `Cmd + R`.
-
-## **🤝 Contributing**
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-```bash
-git checkout -b feature/AmazingFeature
-git commit -m "Add some AmazingFeature"
-git push origin feature/AmazingFeature
-```
-
-Then open a Pull Request.
-
-## **📄 License**
-
-Distributed under the MIT License. See LICENSE for more information.
-
-*Created with logic and ❤️ by Kai Chen.*
-
-
 ## Resources
 
 - 📂 **GitHub Repository**:  
