@@ -1,8 +1,19 @@
 ---
 title: "Real Analysis"
-date: 2025-12-17
 tags: ["notes", "math", "analysis", "measure theory"]
 summary: "Take a dive into Lebesgue's measure theory."
+---
+
+### Summary
+
+Take a dive into Lebesgue's measure theory.
+
+---
+
+### Last Updated
+
+2025.12.17
+
 ---
 
 ### Status
@@ -11,14 +22,12 @@ Ongoing (Close to finish).
 
 ---
 
-### Notes (PDF)
-
-<iframe
-  src="/pdf/RA.pdf"
-  width="100%"
-  height="800px"
-  style="border: none;">
-</iframe>
+### Notes
 
 [⬇ Download PDF](/pdf/RA.pdf)
 
+---
+
+### Remark
+
+This note is part of the SUSTech-Kai-Notes project.
