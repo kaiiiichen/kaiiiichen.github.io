@@ -4,13 +4,6 @@ date: 2025-12-17
 tags: ["notes", "math", "analysis", "measure theory"]
 summary: "Take a dive into Lebesgue's measure theory."
 ---
-
-### Summary
-
-Take a dive into Lebesgue's measure theory.
-
----
-
 ### Last Updated
 
 2025.12.17
@@ -31,4 +24,4 @@ Ongoing (Close to finish).
 
 ### Remark
 
-This note is part of the SUSTech-Kai-Notes project.
+This note is part of the [SUSTech-Kai-Notes project](https://kai-chen.xyz/projects/sustech-kai-notes/).

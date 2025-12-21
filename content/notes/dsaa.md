@@ -4,13 +4,6 @@ date: 2025-12-17
 tags: ["notes", "computer-science", "algorithms", "data-structures"]
 summary: "Make your first encounter with algorithms' design and analysis, and see how clever data structures make magic happen."
 ---
-
-### Summary
-
-Make your first encounter with algorithms' design and analysis, and see how clever data structures make magic happen.
-
----
-
 ### Last Updated
 
 2025.12.17
@@ -31,4 +24,4 @@ Ongoing (very close to finish).
 
 ### Remark
 
-This note is part of the SUSTech-Kai-Notes project.
+This note is part of the [SUSTech-Kai-Notes project](https://kai-chen.xyz/projects/sustech-kai-notes/).
