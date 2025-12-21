@@ -1,6 +1,6 @@
 ---
 title: "Real Analysis"
-date: 2025-12-17
+date: 2025-09-08
 tags: ["notes", "math", "analysis", "measure theory"]
 summary: "Take a dive into Lebesgue's measure theory."
 ---
