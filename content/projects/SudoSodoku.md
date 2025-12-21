@@ -40,10 +40,12 @@ summary: "A terminal-style Sudoku experience for iOS, designed for logical puris
   
 - 🌱 **Latest Release**:
 
+  2025.12.22
+
   [SudoSodoku v0.5.0 Beta: The Terminal Awakening](https://github.com/kaiiiichen/SudoSodoku/releases/tag/v0.5.0)
 
 ---
 
-### Status
+**Status**
 
 Maintaining.
