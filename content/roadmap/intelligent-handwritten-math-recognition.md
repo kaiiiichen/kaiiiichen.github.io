@@ -5,9 +5,14 @@ tags: ["roadmap", "LaTeX", "machine learning"]
 summary: "To build a cross-platform tool that translates handwritten mathematical symbols into LaTeX with high visual accuracy and context-aware semantic precision."
 ---
 
+### Last Updated
+
+2025.12.22
+
+---
+
 # Project Roadmap: Intelligent Handwritten Math Recognition
 
-**Project Status:** Active Development  
 **Core Objective:** To build a cross-platform tool that translates handwritten mathematical symbols into LaTeX with high visual accuracy and context-aware semantic precision.
 
 ---
