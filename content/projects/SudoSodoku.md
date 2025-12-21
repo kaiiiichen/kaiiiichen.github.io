@@ -36,6 +36,9 @@ summary: "A terminal-style Sudoku experience for iOS, designed for logical puris
 
 - 📂 **GitHub Repository**:  
   https://github.com/kaiiiichen/SudoSodoku
+  
+- 🌱 **Latest Release**:
+  [SudoSodoku v0.5.0 Beta: The Terminal Awakening](https://github.com/kaiiiichen/SudoSodoku/releases/tag/v0.5.0)
 
 ---
 
