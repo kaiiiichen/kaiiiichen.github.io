@@ -17,7 +17,7 @@ Ongoing (very close to finish).
 
 ---
 
-### Note
+### Notes
 
 [⬇ Download PDF](/pdf/DSAA.pdf)
 
