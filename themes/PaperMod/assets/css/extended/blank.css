@@ -1,0 +1,133 @@
+/* =========================================
+   Apple-Style Structure Only (No Color Override)
+   Target: kai-chen.xyz
+   ========================================= */
+
+:root {
+    --radius-card: 20px;
+    --radius-nav: 100px; /* 胶囊圆角 */
+    --ease-ios: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* =========================================
+   1. 导航栏：悬浮胶囊 (灵动岛风格)
+   ========================================= */
+.nav {
+    /* 核心布局：悬浮、居中、限制宽度 */
+    position: sticky;
+    top: 20px;
+    width: auto;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px;
+    z-index: 100;
+    
+    /* 造型：完全圆润的胶囊 */
+    border-radius: var(--radius-nav);
+    
+    /* 颜色逻辑：使用【卡片颜色】作为背景，而不是网页背景 */
+    /* 这样在深色模式下是“黑底上的深灰条”，在浅色模式下是“白底上的白条” */
+    background: var(--entry) !important;
+    
+    /* 视觉分隔：添加边框和阴影，确保在“白底白条”时也能看清 */
+    border: 1px solid var(--border);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================================
+   2. 首页按钮 (强制一行 & 卡片化)
+   ========================================= */
+.profile .buttons {
+    display: flex;
+    flex-wrap: nowrap; /* 绝对不换行 */
+    gap: 16px;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.button {
+    /* 颜色逻辑：引用原生卡片颜色 */
+    background: var(--entry); 
+    color: var(--primary);
+    border: 1px solid var(--border); /* 使用原生边框色 */
+    
+    /* 造型 */
+    border-radius: var(--radius-card);
+    padding: 14px 32px;
+    font-weight: 600;
+    font-size: 16px;
+    white-space: nowrap; /* 文字不换行 */
+    
+    /* 交互 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    transition: transform 0.2s var(--ease-ios), box-shadow 0.2s;
+}
+
+.button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    /* 稍微改变亮度来提示悬停，而不改变色相 */
+    filter: brightness(0.95);
+}
+
+/* 深色模式下悬停变亮一点 */
+body.dark .button:hover {
+    filter: brightness(1.2);
+}
+
+/* =========================================
+   3. 文章列表卡片 (Notes, Projects)
+   ========================================= */
+.post-entry {
+    /* 颜色逻辑：严格使用原生卡片色 */
+    background: var(--entry);
+    
+    /* 造型：大圆角 */
+    border-radius: var(--radius-card);
+    padding: 26px;
+    margin-bottom: 24px;
+    
+    /* 边界感：通过边框和阴影来区分卡片和背景（即使它们颜色相同） */
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    
+    transition: transform 0.3s var(--ease-ios), box-shadow 0.3s;
+}
+
+.post-entry:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* 隐藏原本可能存在的下方分割线，保持卡片纯净 */
+.post-entry + .post-entry {
+    margin-top: 0;
+}
+
+/* =========================================
+   4. 全局动画 (上浮入场)
+   ========================================= */
+main {
+    animation: fade-in-up 0.6s var(--ease-ios) forwards;
+    opacity: 0;
+}
+
+@keyframes fade-in-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* =========================================
+   5. 细节优化
+   ========================================= */
+/* 头像圆角 */
+.profile .profile_img {
+    border-radius: 24%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* 确保链接文字颜色跟随主题 */
+a {
+    color: var(--primary);
+}
