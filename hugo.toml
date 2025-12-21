@@ -25,22 +25,6 @@ enableRobotsTXT = true
     imageWidth = 0
     imageHeight = 0
 
-    [[params.profileMode.buttons]]
-      name = "Notes"
-      url = "/notes/"
-      
-    [[params.profileMode.buttons]]
-      name = "Projects"
-      url = "/projects/"
-
-    [[params.profileMode.buttons]]
-      name = "Blog"
-      url = "/blog/"
-      
-    [[params.profileMode.buttons]]
-      name = "Roadmap"
-      url = "/roadmap/"
-
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/kaiiiichen"
