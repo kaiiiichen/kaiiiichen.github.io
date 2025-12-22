@@ -2,7 +2,7 @@
 title: "Intelligent Handwritten Math Recognition"
 date: 2025-12-21
 draft: false
-tags: ["roadmap", "LaTeX", "machine-learning"]
+tags: ["roadmap", "LaTeX", "machine learning", "swift development"]
 summary: "To build a cross-platform tool that translates handwritten mathematical symbols into LaTeX with high visual accuracy and context-aware semantic precision."
 ---
 

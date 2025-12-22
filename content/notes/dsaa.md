@@ -1,7 +1,7 @@
 ---
 title: "Data Structures & Algorithm Analysis"
 date: 2025-09-09
-tags: ["notes", "computer-science", "algorithms", "data-structures"]
+tags: ["notes", "computer science", "algorithms", "data structures"]
 summary: "Make your first encounter with algorithms' design and analysis, and see how clever data structures make magic happen."
 ---
 
