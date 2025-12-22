@@ -11,8 +11,6 @@ summary: "To build a cross-platform tool that translates handwritten mathematica
 
 ---
 
-# Project Roadmap: Intelligent Handwritten Math Recognition
-
 **Core Objective:** 
 
 To build a cross-platform tool that translates handwritten mathematical symbols into LaTeX with high visual accuracy and context-aware semantic precision.
