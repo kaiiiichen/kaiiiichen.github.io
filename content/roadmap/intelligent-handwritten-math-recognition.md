@@ -1,34 +1,37 @@
 ---
 title: "Intelligent Handwritten Math Recognition"
-date: 2025-12-22
+date: 2025-12-21
+draft: false
 tags: ["roadmap", "LaTeX", "machine-learning"]
 summary: "To build a cross-platform tool that translates handwritten mathematical symbols into LaTeX with high visual accuracy and context-aware semantic precision."
 ---
 
-**Last Updated**
-
+### Last Updated
 2025.12.22
 
 ---
 
-**Core Objective:** 
-
-To build a cross-platform tool that translates handwritten mathematical symbols into LaTeX with high visual accuracy and context-aware semantic precision.
+**Core Objective:** To build a cross-platform tool that translates handwritten mathematical symbols into LaTeX with high visual accuracy and context-aware semantic precision.
 
 ---
 
 ## 1. Problem Statement & Philosophy
 
 Existing handwriting recognition tools for mathematics often suffer from two major flaws:
-1.  **Low Accuracy:** Generic OCR models struggle with the subtle nuances of handwritten mathematical glyphs.
-2.  **Lack of Mathematical Context:** They treat symbols as mere images (Image Classification) rather than mathematical entities. For example, they fail to distinguish between the visual shape of a Sigma ($\Sigma$) and the summation operator ($\sum$), or a generic arrow ($\rightarrow$) versus an implication ($\implies$).
+1. **Low Accuracy:** Generic OCR models struggle with the subtle nuances of handwritten mathematical glyphs.
+2. **Lack of Mathematical Context:** They treat symbols as mere images rather than mathematical entities (e.g., failing to distinguish $\Sigma$ from $\sum$).
 
-**Our Philosophy: The Decoupled Architecture** 
+### 1.1 The Technical Rationale: Vision vs. Trajectory
+Why do we use **Computer Vision (CNN)** instead of **Trajectory Analysis (HMM/DTW)** used in traditional Chinese input methods?
 
+* **The Stroke Order Dilemma:** Unlike Chinese characters, which follow strict stroke order rules (e.g., Top-Left to Bottom-Right), mathematical symbols have **high variance in stroke order**.
+    * *Example:* A Sigma ($\Sigma$) can be written in one continuous stroke, or in two separate strokes (top bar first).
+    * *Example:* An integration sign ($\int$) can be drawn top-down or bottom-up.
+* **Our Solution (Offline Recognition):** By utilizing **CNNs (Convolutional Neural Networks)**, we treat the input as a static image (Offline) rather than a time-series of coordinates (Online). This grants our system **Stroke Order Invariance**—the model focuses on the final pixel representation, ignoring *how* the user moved their pen. This also allows the system to recognize symbols from static images (screenshots/PDFs), not just real-time handwriting.
+
+### 1.2 Our Philosophy: The Decoupled Architecture
 Instead of forcing a single model to learn both shape and context, we decouple the system into two distinct layers:
-
 * **The Vision Layer:** A CNN-based model dedicated purely to high-precision shape recognition.
-
 * **The Semantic Layer:** A logic-based post-processing engine that maps shapes to LaTeX code based on user-selected mathematical contexts (e.g., Calculus, Algebra, Logic).
 
 ---
@@ -52,20 +55,18 @@ Instead of forcing a single model to learn both shape and context, we decouple t
 ## 3. Development Roadmap
 
 ### Phase 1: The Vision Engine (Python/PyTorch)
-
 *Goal: Train a model that can distinguish 300+ mathematical symbol shapes with >95% accuracy.*
 
-- [ ] **Data Pipeline Setup:** 
+- [ ] **Data Pipeline Setup:**
     - Implement data loaders for HASYv2 and CROHME.
     - Develop a robust Data Augmentation pipeline (rotation, noise, stroke width variation) to simulate real-world handwriting.
 - [ ] **Model Prototyping:**
     - Train a baseline model on MNIST/EMNIST to validate the training loop.
     - Train Deep CNN on mathematical symbol datasets.
-- [ ] **Model Export:** 
+- [ ] **Model Export:**
     - Convert trained PyTorch models to `.onnx` and `.mlpackage` (CoreML) formats.
 
 ### Phase 2: The Semantic Mapping Layer (Logic)
-
 *Goal: Solve the "Context Problem" (e.g., \Sigma vs. \sum).*
 
 - [ ] **Mapping Database:**
@@ -75,7 +76,6 @@ Instead of forcing a single model to learn both shape and context, we decouple t
     - Design a probability boosting algorithm: if `Mode == Logic`, boost rank of `\implies` over `\rightarrow`.
 
 ### Phase 3: macOS MVP Implementation (Swift)
-
 *Goal: A native, high-performance Mac app.*
 
 - [ ] **Canvas Logic:**
@@ -88,7 +88,6 @@ Instead of forcing a single model to learn both shape and context, we decouple t
     - One-click copy to clipboard functionality.
 
 ### Phase 4: Cross-Platform Expansion
-
 *Goal: Bring the experience to Windows and Linux.*
 
 - [ ] **Tech Evaluation:** Assess Electron vs. Flutter for desktop targets.
@@ -105,6 +104,6 @@ Instead of forcing a single model to learn both shape and context, we decouple t
 
 ---
 
-**Status**
+### Status
 
 Getting Started.
