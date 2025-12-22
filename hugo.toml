@@ -92,3 +92,6 @@ favicon32x32 = "/favicon-32x32.png"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[build]
+  buildFuture = true
