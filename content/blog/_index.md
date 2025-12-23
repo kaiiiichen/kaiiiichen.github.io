@@ -1,4 +1,4 @@
 ---
 title: Blog
-description: "Fragments of thought"
+description: "Fragments of thought."
 ---

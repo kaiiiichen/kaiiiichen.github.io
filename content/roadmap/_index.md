@@ -1,4 +1,4 @@
 ---
 title: "Roadmap"
-description: "Blueprints for what's next"
+description: "Blueprints for what's next."
 ---
