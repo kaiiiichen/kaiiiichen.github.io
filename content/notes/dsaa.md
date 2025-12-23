@@ -2,7 +2,7 @@
 title: "Data Structures & Algorithm Analysis"
 date: 2025-09-09
 tags: ["notes", "computer science", "algorithms", "data structures", "LaTeX"]
-summary: "[Finished] Make your first encounter with algorithms' design and analysis, and see how clever data structures make magic happen."
+summary: "Make your first encounter with algorithms' design and analysis, and see how clever data structures make magic happen."
 ---
 
 **Last Updated**
