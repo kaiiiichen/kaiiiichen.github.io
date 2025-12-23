@@ -12,6 +12,12 @@ summary: "A cross-platform LaTeX input assistant: users draw a single math symbo
 
 ---
 
+**Status**
+
+Getting Started.
+
+---
+
 ## Core Objective
 
 Build a **cross-platform LaTeX input assistant**: the user intentionally draws **one mathematical symbol**, and the system returns a **ranked suggestion list** of possible LaTeX commands (each with rendered preview), so the user can **choose the intended one** quickly and reliably.
@@ -194,9 +200,3 @@ Recent work on **structural** HMER (e.g., arXiv:2508.19773) suggests that modula
 ### 5.3 Personalization beyond memory (optional)
 - Carefully explore per-user adaptation only after we have strong baselines
 - Default stance: **don’t overfit to one user** unless the UX clearly benefits
-
----
-
-**Status**
-
-Getting Started.

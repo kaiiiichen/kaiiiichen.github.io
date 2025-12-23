@@ -5,6 +5,18 @@ tags: ["projects", "swift development", "ios development"]
 summary: "A terminal-style Sudoku experience for iOS, designed for logical purists."
 ---
 
+**Last Updated**
+
+2025.12.21
+
+---
+
+**Status**
+
+Maintaining.
+
+---
+
 **SudoSodoku** is a minimalist, keyboard-centric (conceptually) puzzle game that brings the Linux terminal aesthetic to your iPhone. It strips away the distractions of modern casual games, offering a raw, focus-driven environment powered by a robust algorithmic core.
 
 ### **🚀 What's New in v0.5.0 Beta**
@@ -67,9 +79,3 @@ SudoSodoku is built with **pure SwiftUI**, following a strict **MVVM (Model-View
 - 🌱 **Latest Release**:
 
   [2025.12.22] [SudoSodoku v0.5.0 Beta: The Terminal Awakening](https://github.com/kaiiiichen/SudoSodoku/releases/tag/v0.5.0)
-
----
-
-**Status**
-
-Maintaining.

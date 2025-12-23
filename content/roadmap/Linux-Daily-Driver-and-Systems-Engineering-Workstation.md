@@ -12,6 +12,12 @@ summary: "To build a reliable Fedora-first daily-driver workstation for programm
 
 ---
 
+**Status**
+
+Ongoing.
+
+---
+
 **Core Objective:** To make Fedora on my ThinkPad a reliable daily-driver programming workstation, and use it as a hands-on lab to learn computer systems fundamentals—Linux workflows, OS concepts, system architecture, debugging/performance tooling, and reproducible development environments—while keeping Windows as a clean fallback for a small set of apps/games.
 
 ---
@@ -134,9 +140,3 @@ Instead of relying on “I remember how I set this up,” I want:
 - **A personal systems notebook:** concise writeups, pitfalls, and debugging recipes that compound over time.
 - **Reusable project templates:** starter repos for C/C++/Rust/Python with clean builds and tests.
 - **Frictionless cross-device workflow:** predictable sync, backups, and a low-maintenance setup that keeps working even when I’m busy.
-
----
-
-**Status**
-
-Ongoing.
