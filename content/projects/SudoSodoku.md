@@ -70,6 +70,8 @@ SudoSodoku is built with **pure SwiftUI**, following a strict **MVVM (Model-View
   * Automatic migration logic for schema updates (e.g., v3 \-\> v4 data migration).  
 * **Input Handling**: Custom gesture recognizers to solve conflict issues between "Jelly" animations and selection logic.
 
+---
+
 ## Resources
 
 - 📂 **GitHub Repository**:  
