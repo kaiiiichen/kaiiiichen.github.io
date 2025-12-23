@@ -60,17 +60,17 @@ favicon32x32 = "/favicon-32x32.png"
     name = "Projects"
     url = "/projects/"
     weight = 3
-
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 4
     
   [[menu.main]]
     identifier = "roadmap"
     name = "Roadmap"
     url = "/roadmap/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
     weight = 5
     
   [[menu.main]]
