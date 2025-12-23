@@ -77,7 +77,7 @@ Instead of relying on “I remember how I set this up,” I want:
 ### Phase 1: Daily-Driver Baseline (Stability First)
 *Goal: A Fedora environment I can rely on every day without thinking about it.*
 
-- [✅] **Boot & Reliability:**
+- [x] **Boot & Reliability:**
     - Make Fedora the default boot target; keep Windows clean and minimal.
     - Validate sleep/wake behavior and fix any recurring issues.
 - [ ] **Core Developer Setup:**
