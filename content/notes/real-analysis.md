@@ -18,7 +18,7 @@ Ongoing (close to finish).
 
 ### Notes
 
-[⬇ Download PDF](/pdf/RA.pdf)
+[⬇ Download .pdf](/pdf/RA.pdf)
 
 ---
 
