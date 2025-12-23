@@ -1,4 +1,4 @@
 ---
 title: "Projects"
-description: "Selected projects and ongoing work."
+description: "Selected projects and work in maintenance."
 ---

@@ -19,13 +19,13 @@ Finished (maintaining).
 
 ### Notes
 
-[⬇ Download `.pdf`](/pdf/DSAA.pdf)
+[⬇ Download .pdf](/pdf/DSAA.pdf)
 
 ---
 
 ### Resources
 
-[⬇ Download `.zip`](/zip/DSAA.zip)
+[⬇ Download .zip](/zip/DSAA.zip)
 
 ---
 

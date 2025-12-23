@@ -22,4 +22,4 @@ I accompany this special notes project with a Github wiki page, which reviews th
 
 **Status**
 
-Ongoing.
+Updating.
