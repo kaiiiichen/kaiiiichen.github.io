@@ -7,7 +7,7 @@ summary: "A terminal-style Sudoku experience for iOS, designed for logical puris
 
 **Last Updated**
 
-2025.12.21
+2025.12.22
 
 ---
 
