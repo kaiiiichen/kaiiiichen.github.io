@@ -2,7 +2,7 @@
 title: "Real Analysis"
 date: 2025-09-08
 tags: ["notes", "math", "analysis", "measure theory", "LaTeX"]
-summary: "Take a dive into Lebesgue's measure theory."
+summary: "[Ongoing] Take a dive into Lebesgue's measure theory."
 ---
 **Last Updated**
 
@@ -12,7 +12,7 @@ summary: "Take a dive into Lebesgue's measure theory."
 
 **Status**
 
-Ongoing (Close to finish).
+Ongoing (close to finish).
 
 ---
 
