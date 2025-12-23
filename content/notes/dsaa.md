@@ -7,19 +7,25 @@ summary: "Make your first encounter with algorithms' design and analysis, and se
 
 **Last Updated**
 
-2025.12.17
+2025.12.23
 
 ---
 
 **Status**
 
-Ongoing (very close to finish).
+Finished (maintaining).
 
 ---
 
 ### Notes
 
 [⬇ Download PDF](/pdf/DSAA.pdf)
+
+---
+
+### Resources
+
+[⬇ Download zip](/zip/DSAA.zip)
 
 ---
 
