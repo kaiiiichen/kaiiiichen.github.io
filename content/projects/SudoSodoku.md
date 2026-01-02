@@ -7,7 +7,7 @@ summary: "A terminal-style Sudoku experience for iOS, designed for logical puris
 
 **Last Updated**
 
-2025.12.22
+2026.01.02
 
 ---
 
@@ -19,14 +19,18 @@ Maintaining.
 
 **SudoSodoku** is a minimalist, keyboard-centric (conceptually) puzzle game that brings the Linux terminal aesthetic to your iPhone. It strips away the distractions of modern casual games, offering a raw, focus-driven environment powered by a robust algorithmic core.
 
-### **🚀 What's New in v0.5.0 Beta**
+### **🎉 v1.0.0 - First Official Release**
 
-We are thrilled to announce the first public beta release\! This version introduces the complete "Hacker" game loop:
+We are thrilled to announce the first stable release of SudoSodoku\! This version represents a complete, polished game with all core features implemented and tested:
 
-* **New "Pencil Mode"**: Toggle candidate notes for complex deduction in Hard/Master difficulties.  
-* **Undo/Redo Stack**: A robust history system allowing fearless experimentation.  
-* **Smart Archives**: Automatically saves unfinished sessions; ability to "Favorite" and replay specific seeds.  
-* **UI Polish**: Enhanced symmetry in the control panel and refined haptic feedback profiles.
+* **Procedural Puzzle Generation**: Real-time generation of unique, solvable puzzles.  
+* **Four Difficulty Levels**: Easy, Medium, Hard, and Master with intelligent scoring.  
+* **Pencil Mode**: Toggle candidate notes for complex deduction strategies.  
+* **Undo/Redo System**: Full history stack for fearless experimentation.  
+* **Smart Archives**: Automatic saving with favorites and replay functionality.  
+* **ELO Rating System**: Competitive ranking from SCRIPT\_KIDDIE to THE\_ARCHITECT.  
+* **Terminal Aesthetic**: Authentic green phosphor UI with haptic feedback.  
+* **Modular Architecture**: Clean, maintainable codebase organized by feature.
 
 ## **✨ Features**
 
@@ -60,37 +64,55 @@ We are thrilled to announce the first public beta release\! This version introdu
 
 ## **🛠️ Technical Architecture**
 
-SudoSodoku is built with **pure SwiftUI**, following a strict **MVVM (Model-View-ViewModel)** pattern.
+SudoSodoku is built with modern iOS technologies, designed for maintainability and performance:
 
 * **Language**: Swift 5.9  
-* **UI Framework**: SwiftUI (Declarative UI)  
-* **State Management**: ObservableObject \+ Combine pipelines for reactive UI updates.  
-* **Persistence Layer**:  
-  * Custom StorageManager handling atomic file writes.  
-  * Automatic migration logic for schema updates (e.g., v3 \-\> v4 data migration).  
-* **Input Handling**: Custom gesture recognizers to solve conflict issues between "Jelly" animations and selection logic.
+* **UI Framework**: SwiftUI (Apple's modern declarative UI framework)  
+* **Architecture**: MVVM (Model-View-ViewModel) pattern for clean code organization  
+* **State Management**: Reactive updates using Combine framework  
+* **Data Persistence**:  
+  * Automatic cloud sync via iCloud (with local fallback)  
+  * Safe file operations with atomic writes  
+  * Backward-compatible data migration  
+* **User Experience**: Custom animations and haptic feedback for a polished feel
 
 ### **Directory Structure**
 
-```bash
-SudoSodoku/  
-├── Models/  
-│   ├── GameRecord.swift       \# Codable save data structure  
-│   ├── SudokuCell.swift       \# Unit cell model  
-│   └── Difficulty.swift       \# Enum with rating ranges  
-├── ViewModels/  
-│   ├── SudokuGame.swift       \# Core game logic & state machine  
-│   └── StorageManager.swift   \# File I/O & Cloud syncing  
-├── Managers/  
-│   ├── GameCenterManager.swift\# GameKit authentication  
-│   ├── RatingManager.swift    \# ELO calculation algorithms  
-│   └── HapticManager.swift    \# Haptic feedback engine  
-├── Views/  
-│   ├── ContentView.swift      \# Main entry & NavigationStack  
-│   ├── GameView.swift         \# The game board  
-│   └── ArchiveView.swift      \# History & Favorites list  
-└── Algorithms/  
-    └── SudokuGenerator.swift  \# Backtracking & Digging logic
+```
+SudoSodoku/
+├── Models/
+│   ├── GameRecord.swift          # Codable save data structure
+│   ├── SudokuCell.swift          # Unit cell model
+│   ├── MoveHistory.swift         # Move history for undo/redo
+│   └── Difficulty.swift          # Enum with rating ranges
+├── ViewModels/
+│   └── SudokuGame.swift          # Core game logic & state machine
+├── Managers/
+│   ├── GameCenterManager.swift   # GameKit authentication
+│   ├── RatingManager.swift       # ELO calculation algorithms
+│   ├── HapticManager.swift      # Haptic feedback engine
+│   └── StorageManager.swift      # File I/O & Cloud syncing
+├── Views/
+│   ├── ContentView.swift         # Main entry & NavigationStack
+│   ├── LandingView.swift         # Landing page
+│   ├── GameView.swift            # The game board
+│   ├── UserProfileView.swift     # User profile & statistics
+│   ├── ArchiveView.swift         # History & Favorites list
+│   ├── ModeSelectionView.swift   # Difficulty selection
+│   ├── BoardView.swift           # Sudoku board rendering
+│   ├── ControlPanelView.swift    # Game controls (undo/redo/numpad)
+│   ├── Components/
+│   │   ├── TerminalBackground.swift    # Terminal-style background
+│   │   ├── MatrixVictoryOverlay.swift  # Victory animation
+│   │   ├── NoteGridView.swift          # Note display grid
+│   │   ├── GridLinesOverlay.swift      # Board grid lines
+│   │   ├── StatCard.swift              # Statistics card component
+│   │   ├── RankRow.swift               # Rank display row
+│   │   └── RecordRow.swift             # Archive record row
+│   └── Styles/
+│       └── BouncyButtonStyle.swift     # Button animation style
+└── Algorithms/
+    └── SudokuGenerator.swift     # Backtracking & Digging logic
 ```
 
 ---
@@ -103,4 +125,4 @@ SudoSodoku/
   
 - 🌱 **Latest Release**:
 
-  [2025.12.22] [SudoSodoku v0.5.0 Beta: The Terminal Awakening](https://github.com/kaiiiichen/SudoSodoku/releases/tag/v0.5.0)
+  [2026.01.02] [SudoSodoku v1.0.0: First Official Release](https://github.com/kaiiiichen/SudoSodoku/releases/tag/v1.0.0)
