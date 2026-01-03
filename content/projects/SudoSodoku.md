@@ -119,15 +119,15 @@ SudoSodoku/
 
 ## Resources
 
-- 📂 **GitHub Repository**:  
+* 📂 **GitHub Repository**:  
 
-  https://github.com/kaiiiichen/SudoSodoku
+  <https://github.com/kaiiiichen/SudoSodoku>
   
-- 🌱 **Latest Release**:
+* 🌱 **Latest Release**:
 
   [2026.01.02] [SudoSodoku v1.0.0: First Official Release](https://github.com/kaiiiichen/SudoSodoku/releases/tag/v1.0.0)
   
-- 📜 **Release History**:
+* 📜 **Release History**:
 
   * [2026.01.02] [SudoSodoku v1.0.0: First Official Release](https://github.com/kaiiiichen/SudoSodoku/releases/tag/v1.0.0)  
   * [2025.12.22] [SudoSodoku v0.5.0 Beta: The Terminal Awakening](https://github.com/kaiiiichen/SudoSodoku/releases/tag/v0.5.0)

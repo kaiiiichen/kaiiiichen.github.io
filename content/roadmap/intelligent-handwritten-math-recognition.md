@@ -1,5 +1,5 @@
 ---
-title: "Intelligent Handwritten Math Recognition"
+title: "Intelligent-Handwritten-Math-Recognition"
 date: 2025-12-21
 draft: false
 tags: ["roadmap", "LaTeX", "machine learning", "swift development"]
@@ -60,6 +60,7 @@ Instead of forcing one model to learn *everything*, we split the system into:
 - **Semantic Suggestion Engine (Symbol hypotheses → LaTeX candidates):** map each symbol class to **multiple LaTeX candidates**, then **rank them** with mathematically informed heuristics (and light personalization).
 
 Crucially, the system is a **suggestion tool**, not an oracle:
+
 - We aim for *high-quality top-k* recommendations.
 - The final selection remains user-controlled.
 
@@ -76,6 +77,7 @@ For each user input, show a list like:
 3. `\rightarrow`  →  (Rendered preview)
 
 Each item includes:
+
 - LaTeX command
 - Rendered preview (offline if possible)
 - Optional short hint (e.g., “logical implication”, “mapping”, “derivation arrow”)
@@ -83,10 +85,12 @@ Each item includes:
 ### 2.2 Mathematical preference order (not just “most likely”)
 
 Ranking is **not purely visual**. Some commands are more mathematically appropriate defaults:
+
 - Double arrow is visually similar across contexts, but `\implies` is often the best default in logic-heavy use.
 - `\rightarrow` is common for functions/mappings; it shouldn’t silently replace implication.
 
 So the system ranks by a blend of:
+
 - **visual confidence** (Vision Engine)
 - **math preference** (Semantic Suggestion Engine, by mode or heuristics)
 - **light personalization** (see next section)
@@ -107,17 +111,20 @@ This preserves mathematical correctness **and** respects the user’s personal h
 ## 3. Technical Stack
 
 ### Machine Learning (The “Brain”)
+
 - **Framework:** PyTorch (training), ONNX (interoperability).
 - **Architecture:** CNN baseline (ResNet/MobileNet variants optimized for symbol classification).
   - Future upgrade path: lightweight ViT / attention-augmented CNN if needed.
 - **Datasets:** HASYv2 (primary), CROHME (symbol extraction), MNIST/EMNIST (prototyping).
 
 ### macOS Client (The MVP)
+
 - **Language:** Swift
 - **UI:** SwiftUI
 - **Inference:** CoreML (Apple Neural Engine where available)
 
 ### Cross-Platform (Future)
+
 - **Framework:** Electron or Flutter (evaluate)
 - **Inference:** ONNX Runtime
 
@@ -126,6 +133,7 @@ This preserves mathematical correctness **and** respects the user’s personal h
 ## 4. Development Roadmap
 
 ### Phase 1: Vision Engine (Python/PyTorch)
+
 *Goal: robust top-k symbol hypotheses over 300+ symbols (optimize for top-1 and top-5).*
 
 - [ ] **Data pipeline**
@@ -138,6 +146,7 @@ This preserves mathematical correctness **and** respects the user’s personal h
   - Convert to `.onnx` and `.mlpackage`
 
 ### Phase 2: Semantic Suggestion Engine (Logic + Ranking)
+
 *Goal: map symbol hypotheses to ranked LaTeX candidates with mathematical preferences.*
 
 - [ ] **Mapping database**
@@ -150,6 +159,7 @@ This preserves mathematical correctness **and** respects the user’s personal h
   - Render preview for each candidate (prefer offline rendering where feasible)
 
 ### Phase 3: Personalization Layer (Interaction Memory)
+
 *Goal: improve UX without corrupting math ranking.*
 
 - [ ] Store per-user last-choice records keyed by symbol class (and optionally style cluster).
@@ -157,6 +167,7 @@ This preserves mathematical correctness **and** respects the user’s personal h
 - [ ] Provide an option to clear history.
 
 ### Phase 4: macOS MVP (Swift)
+
 *Goal: a native, fast Mac app that feels like a real tool, not a demo.*
 
 - [ ] **Canvas**
@@ -170,6 +181,7 @@ This preserves mathematical correctness **and** respects the user’s personal h
   - “last chosen” marker + optional tooltip
 
 ### Phase 5: Cross-Platform Expansion
+
 *Goal: bring it to Windows and Linux.*
 
 - [ ] Evaluate Electron vs. Flutter
@@ -181,14 +193,17 @@ This preserves mathematical correctness **and** respects the user’s personal h
 ## 5. Future Outlook
 
 ### 5.1 Offline LaTeX rendering improvements
+
 - Better local rendering quality
 - Faster previews
 - Optional caching of frequent symbols
 
 ### 5.2 From single symbol → full handwritten formula to LaTeX (HMER)
+
 After the single-symbol tool is stable, a natural next step is expanding toward **full handwritten mathematical expression recognition (HMER)**: converting complete handwritten formulas into LaTeX.
 
 A realistic, extensible path is **structure-aware and modular**:
+
 - segmentation / symbol grouping
 - symbol classification (reusing this project’s Vision Engine)
 - spatial relation prediction (superscripts, fractions, radicals, etc.)
@@ -198,5 +213,6 @@ A realistic, extensible path is **structure-aware and modular**:
 Recent work on **structural** HMER (e.g., arXiv:2508.19773) suggests that modular, structure-aware pipelines can provide stronger interpretability and extensibility than purely end-to-end generation.
 
 ### 5.3 Personalization beyond memory (optional)
+
 - Carefully explore per-user adaptation only after we have strong baselines
 - Default stance: **don’t overfit to one user** unless the UX clearly benefits
