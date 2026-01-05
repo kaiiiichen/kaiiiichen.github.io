@@ -1,115 +1,113 @@
 ---
-title: "我为什么不打游戏"
+title: "Why I Don't Play Games"
 date: 2026-01-05
 author: "ChatGPT"
 tags: ["blog", "ChatGPT"]
-summary: "我不打游戏，有一个很现实、也很少被认真讨论的原因：..."
+summary: "A Personal Note on Emotions, Causality, and System Fit"
 ---
 
-我不打游戏，有一个很现实、也很少被认真讨论的原因： 
-我玩得并不好，而且在竞技游戏里，我经常会红温、沮丧、愤怒，甚至因为队友的错误而长时间情绪低落。
+I don’t play video games for a very simple and honest reason:  
+I’m not particularly good at them, and in competitive games I often end up tilted, frustrated, and emotionally drained—sometimes even upset for a long time because of mistakes made by teammates.
 
-这并不是一句“我不适合游戏”的泛泛而谈，而是一次对自己心理反应的系统性观察。  
-当我认真拆解之后，我发现问题并不在“游戏”，也不在“我”，而在**人与系统的错配**。
+This isn’t a vague statement like “games just aren’t for me.”  
+It’s the result of deliberately observing my own reactions. Once I started taking those reactions seriously, I realized the issue wasn’t *games*, and it wasn’t *me* either. It was a mismatch between a person and a system.
 
-下面是我给自己的三条结论，也是一份留给未来的备忘。
-
----
-
-## 一、红温不是脾气问题，而是高敏感神经在高噪声系统中的过载
-
-竞技游戏是一个非常特殊的环境：  
-反馈极快、惩罚即时、错误不可逆，而且大多是公开的。
-
-在这样的系统里，人的大脑会被迫持续处于“应激—纠错—再应激”的循环中。  
-如果你对反馈高度敏感、对错误高度在意，这种循环很快就会耗尽心理资源。
-
-所谓“红温”，并不是意志薄弱，也不是情绪管理失败，  
-而更像是**神经系统在长期高负载下的自然反应**。
-
-当一个系统几乎不给人任何缓冲、复盘和慢下来的空间时，  
-失控并不奇怪，能长期保持轻松反而才是少数情况。
+What follows are three conclusions I wrote down for myself—a record I want to be able to return to in the future.
 
 ---
 
-## 二、对队友愤怒的本质：我对因果关系的要求高于这个系统能提供的程度
+## 1. Tilt Is Not a Personality Flaw, but Nervous-System Overload in a High-Noise Environment
 
-我会被队友的“低级失误”气到，本质原因并不是我苛刻，  
-而是我心里默认的一套世界模型是：
+Competitive games are a very specific kind of environment:  
+feedback is immediate, punishment is instant, mistakes are irreversible, and everything happens in public view.
 
-> 判断 → 行为 → 后果  
-> 努力 → 改善 → 回报  
+In such systems, the brain is forced into a constant loop of stress → correction → stress again.  
+If you are highly sensitive to feedback and errors, this loop quickly exhausts your mental resources.
 
-这是一个强调连续性、可解释性和责任归属的模型。
+“Tilting” is therefore not a failure of self-control or emotional maturity.  
+It is better understood as a **natural response of the nervous system under sustained high load**.
 
-但多数多人竞技游戏运行在另一套逻辑中：  
-个人努力被稀释，错误被分摊，结果受随机性强烈影响。  
-你做对了，不一定赢；别人做错了，也未必承担主要代价。
-
-这种**因果失真**对某些人来说只是“游戏的一部分”，  
-但对重视逻辑一致性的人来说，会造成深层的不适和挫败。
-
-愤怒并不是针对某个队友，  
-而是对一个“不讲理却要求你认真”的系统的反应。
+When a system offers almost no room to pause, reflect, or recover, emotional breakdown is not surprising. What *is* surprising is how normalized it has become to expect calmness in such conditions.
 
 ---
 
-## 三、我玩不好游戏，并不是能力问题，而是我对“投入”本身太认真
+## 2. Anger at Teammates Comes from a Higher Demand for Causality Than the System Can Offer
 
-我不是那种能“随便玩玩”的人。  
-一旦进入一个系统，我会本能地想理解规则、优化策略、减少错误。
+When I get angry at teammates for obvious mistakes, it’s not because I’m harsh or unforgiving.  
+It’s because I carry a default model of how the world should work:
 
-问题在于，很多游戏的乐趣，恰恰建立在**不完全投入**之上：  
-对输赢钝感，对失误宽容，对荒谬一笑而过。
+> Judgment → Action → Consequence  
+> Effort → Improvement → Reward
 
-而我一旦认真，就会在意；  
-一旦在意，系统的不公平就会被放大；  
-一旦放大，快乐就会迅速坍塌。
+This is a model built on continuity, explainability, and responsibility.
 
-于是出现了一种悖论：  
-我越认真，越不适合这种娱乐；  
-可我不认真，又根本无法进入状态。
+Most multiplayer competitive games, however, operate on a very different logic:  
+individual effort is diluted, mistakes are distributed across the team, and outcomes are heavily influenced by randomness.  
+You can do many things right and still lose; others can do many things wrong without bearing the full cost.
 
-这不是“玩不起”，  
-而是我把游戏当成了一个值得尊重的系统，而它并没有回馈同等的确定性。
+For some people, this causal distortion is simply “part of the game.”  
+For those who care deeply about logical consistency, it creates a deep sense of friction.
 
----
-
-## 四、真正的结论：不是我不适合快乐，而是我不适合某些快乐机制
-
-并不存在对所有人都友好的娱乐方式。  
-不同的快乐，对神经系统和价值结构的要求完全不同。
-
-有些快乐是：  
-高刺激、强反馈、低控制、即时结算。
-
-有些快乐是：  
-低噪声、可复盘、因果清楚、成长可积累。
-
-我显然更适合后者。
-
-当我长时间思考一个问题、慢慢构建一个模型、写下一段清晰的文字时，  
-那种满足感并不是“赢了”，  
-而是：**我理解得更深了一点**。
-
-这种快乐更慢，也更安静，但不会反噬。
+The anger is rarely about a specific teammate.  
+It is a reaction to a system that feels **fundamentally unfair while demanding full engagement**.
 
 ---
 
-## 五、写给未来的自己
+## 3. Playing Poorly Is Not About Skill, but About Taking the System Too Seriously
 
-如果未来的我某天开始怀疑：  
-是不是我太较真？  
-是不是我太容易被影响？  
-是不是我玩不起？
+I am not someone who can “just play casually.”  
+Once I enter a system, I instinctively want to understand its rules, optimize my decisions, and avoid unnecessary mistakes.
 
-请记住这一点：
+The problem is that many games derive their enjoyment from *partial disengagement*:  
+being emotionally loose about outcomes, forgiving of errors, and lighthearted about absurdity.
 
-**我不是脆弱，我只是对系统结构很诚实。**  
-我不需要适应所有环境，也不必为避开某些机制感到羞愧。
+But once I commit seriously, I start to care;  
+once I care, the system’s inconsistencies become amplified;  
+once amplified, enjoyment collapses.
 
-把精力留给尊重因果、允许思考、值得认真对待的事情，  
-不是逃避世界，而是选择适合自己的那一部分世界。
+This creates a paradox:  
+the more seriously I take the game, the less suitable it becomes for me.  
+Yet without seriousness, I can’t truly engage at all.
+
+This is not about being “unable to lose.”  
+It’s about treating a system as worthy of seriousness when it cannot reciprocate with meaningful causality.
+
+---
+
+## 4. The Real Conclusion: I Am Not Unsuitable for Joy, Only for Certain Joy Mechanisms
+
+There is no universal form of entertainment that fits everyone.  
+Different kinds of enjoyment place very different demands on the nervous system and value structure.
+
+Some forms of pleasure are built on:  
+high stimulation, strong feedback, low control, and instant resolution.
+
+Others are built on:  
+low noise, replayability, clear causality, and accumulative growth.
+
+I clearly belong to the latter.
+
+When I spend time thinking deeply about a problem, slowly building a model, or writing something precise and coherent, the satisfaction I feel is not the thrill of “winning.”  
+It is the quiet realization that **I understand something a little better than before**.
+
+This kind of pleasure is slower and quieter—but it does not turn against you.
+
+---
+
+## 5. A Note to My Future Self
+
+If, someday, I start doubting myself again:  
+Am I too serious?  
+Too sensitive?  
+Too easily affected?
+
+I want to remember this:
+
+**I am not fragile. I am simply honest about how systems affect me.**  
+I don’t need to adapt to every environment, and I don’t need to feel ashamed for avoiding certain mechanisms.
+
+Saving my attention and emotional energy for systems that respect causality, allow thought, and reward sincerity  
+is not avoidance of the world—it is choosing the part of the world that fits me.
 
 2026.01.05
 
