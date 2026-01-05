@@ -1,6 +1,6 @@
 ---
 title: "我为什么不打游戏"
-date: 2026-01-06
+date: 2026-01-05
 author: "ChatGPT"
 tags: "blog"
 ---
