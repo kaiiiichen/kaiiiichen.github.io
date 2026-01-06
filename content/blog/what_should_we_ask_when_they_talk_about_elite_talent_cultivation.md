@@ -177,4 +177,6 @@ In my view, truly outstanding talent isn’t cultivated by teachers — it’s c
 
 **刘思齐老师已声明本文可“转载”，无需授权。**
 
-![Screenshot 2026-01-06 at 21.38.48](/png/Screenshot 2026-01-06 at 21.38.48.png)
+*本文英文翻译由ChatGPT提供。*
+
+*Chinese to English translation provided by ChatGPT.*
