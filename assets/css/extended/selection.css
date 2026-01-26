@@ -3,26 +3,17 @@
    For Hugo PaperMod
    ========================================= */
 
-/* ---------- Light Mode (default) ---------- */
-.post-content ::selection {
-  background: #f2c94c;   /* Academic yellow */
-  color: #111827;        /* Near-black, readable */
-}
-
-.post-content ::-moz-selection {
-  background: #f2c94c;
+/* ---------- Global (all modes) ---------- */
+::selection {
+  background: #FDB515;
+  /* requested highlight color */
   color: #111827;
+  /* near-black, readable on yellow */
 }
 
-/* ---------- Dark Mode ---------- */
-.dark .post-content ::selection {
-  background: #a16207;   /* Muted amber for dark bg */
-  color: #fefce8;        /* Warm off-white */
-}
-
-.dark .post-content ::-moz-selection {
-  background: #a16207;
-  color: #fefce8;
+::-moz-selection {
+  background: #FDB515;
+  color: #111827;
 }
 
 /* ---------- Exclude code blocks ---------- */
