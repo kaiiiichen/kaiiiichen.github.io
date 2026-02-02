@@ -4,11 +4,7 @@ date: 2026-02-01
 tags: ["tools", "UC Berkeley", "library"]
 summary: "Show the latest opening status of all UC Berkeley Libraries."
 ---
-
-这个页面**只展示脚本的最新运行结果**（类似 terminal 输出）。
-
-- 数据源：`https://www.lib.berkeley.edu/hours`
-- 更新方式：GitHub Actions 定时运行原始抓取逻辑，把结果写回本页面
+- We update using GitHub Actions to automatically run actions on the page and print the result here.
 
 <!-- BEGIN_UCB_LIB_TIME_OUTPUT -->
 
