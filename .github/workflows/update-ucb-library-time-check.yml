@@ -43,3 +43,18 @@ jobs:
           git add content/tools/ucb-library-time-check.md
           git commit -m "chore(tools): update UCB library time output"
           git push
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "latest"
+
+      - name: Build Website
+        run: hugo --minify
+
+      - name: Deploy to GitHub Pages Branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public # Hugo 默认生成到这里
+          publish_branch: gh-pages
