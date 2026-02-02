@@ -1,38 +1,8 @@
-name: Update UCB Library Time Check
-
-on:
-  workflow_dispatch:
-  schedule:
-    # Every 15 minutes
-    - cron: "*/15 * * * *"
-
-permissions:
-  contents: write
-
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: true
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r scripts/requirements.txt
-
-      - name: Update markdown output
+- name: Update markdown output
         run: |
           python scripts/update_ucb_library_time_check.py
 
-      - name: Commit changes (if any)
+      - name: Commit and Push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -42,19 +12,4 @@ jobs:
           fi
           git add content/tools/ucb-library-time-check.md
           git commit -m "chore(tools): update UCB library time output"
-          git push
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: "latest"
-
-      - name: Build Website
-        run: hugo --minify
-
-      - name: Deploy to GitHub Pages Branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public # Hugo 默认生成到这里
-          publish_branch: gh-pages
+          git push # 推送后会自动触发你那个专门部署的工作流
