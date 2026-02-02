@@ -14,16 +14,15 @@ summary: "Show the latest opening status of all UC Berkeley Libraries."
 
 ```text
 ============================================================
-UC Berkeley 图书馆开放状态
-更新时间: 2026-02-01 23:31:20 PST
-数据源: https://www.lib.berkeley.edu/hours
+UC Berkeley Library Open Status
+Last Update: 2026-02-02 00:03:16 PST
+Data Source: https://www.lib.berkeley.edu/hours
 ============================================================
 
-当前开放的图书馆 (2个)：
-🟢 Doe Library — 1 p.m.-6 a.m.
-🟢 Main (Gardner) Stacks — 1 p.m.-2 a.m.
+Now Open (0)：
+(None)
 
-已关闭的图书馆 (23个)：
+Now Closed (23)：
 🔴 Art History/Classics Library
 🔴 Bancroft Library
 🔴 Berkeley Art Museum and Pacific Film Archive
@@ -31,18 +30,20 @@ UC Berkeley 图书馆开放状态
 🔴 Bioscience, Natural Resources & Public Health Library
 🔴 Business Library
 🔴 Chemistry, Astronomy & Physics Library
+🔴 Doe Library
 🔴 East Asian Library
 🔴 Engineering & Mathematical Sciences Library
-🔴 Environmental Design Archives
 🔴 Environmental Design Library
 🔴 Ethnic Studies Library
 🔴 Graduate Services (study only)
-🔴 Graduate Theological Union Library
 🔴 Institute of Governmental Studies Library
-... 还有 8 个图书馆已关闭
+🔴 Institute of Transportation Studies Library
+... and other 8 libraries are closed.
 
-状态未知 (2个)：
+Status Unknown (4)：
 ⚪ Print + scan
+⚪ Environmental Design Archives
+⚪ Graduate Theological Union Library
 ⚪ Lawrence Berkeley National Laboratory Library
 
 ============================================================
