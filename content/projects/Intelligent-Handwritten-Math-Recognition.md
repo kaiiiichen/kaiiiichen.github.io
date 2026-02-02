@@ -1,7 +1,7 @@
 ---
 title: "Intelligent Handwritten Math Recognition"
 date: 2025-12-21
-tags: ["projects", "machine learning", "swift development", "latex", "computer vision"]
+tags: ["projects", "machine learning", "swift development", "LaTeX", "computer vision"]
 summary: "A cross-platform LaTeX input assistant that recognizes handwritten mathematical symbols and provides ranked LaTeX command suggestions with live previews."
 ---
 

@@ -1,0 +1,45 @@
+name: Update UCB Library Time Check
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every 15 minutes
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Update markdown output
+        run: |
+          python scripts/update_ucb_library_time_check.py
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git add content/tools/ucb-library-time-check.md
+          git commit -m "chore(tools): update UCB library time output"
+          git push
