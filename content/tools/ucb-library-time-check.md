@@ -2,7 +2,7 @@
 title: "UC Berkeley Library Time Check"
 date: 2026-02-01
 tags: ["tools", "UC Berkeley", "library"]
-summary: "显示 ucb_lib_time 脚本的最新运行结果（自动更新）"
+summary: "Show the latest opening status of all UC Berkeley Libraries."
 ---
 
 这个页面**只展示脚本的最新运行结果**（类似 terminal 输出）。
