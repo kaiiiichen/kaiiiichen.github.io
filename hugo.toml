@@ -31,7 +31,7 @@ url = "https://github.com/kaiiiichen"
 
 [[params.socialIcons]]
 name = "linkedin"
-url = "https://www.linkedin.com/in/kaichen2005/"
+url = "https://www.linkedin.com/in/kaiiiichen/"
 
 [[params.socialIcons]]
 name = "email"
@@ -68,28 +68,16 @@ url = "/tools/"
 weight = 4
 
 [[menu.main]]
-identifier = "roadmap"
-name = "Roadmap"
-url = "/roadmap/"
-weight = 5
-
-[[menu.main]]
-identifier = "blog"
-name = "Blog"
-url = "/blog/"
-weight = 6
-
-[[menu.main]]
 identifier = "search"
 name = "Search"
 url = "/search/"
-weight = 7
+weight = 5
 
 [[menu.main]]
 identifier = "tags"
 name = "Tags"
 url = "/tags/"
-weight = 8
+weight = 6
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
