@@ -12,4 +12,4 @@
           fi
           git add content/tools/ucb-library-time-check.md
           git commit -m "chore(tools): update UCB library time output"
-          git push # 推送后会自动触发你那个专门部署的工作流
+          git push
