@@ -5,6 +5,7 @@ tags: ["tools", "UC Berkeley", "library"]
 summary: "Show the latest opening status of all UC Berkeley Libraries."
 ---
 - We update using GitHub Actions to automatically run actions on the page and print the result here.
+- Remember that you can study overnight in some libraries. For overnight information, visit [https://www.lib.berkeley.edu/hours](https://www.lib.berkeley.edu/hours) and pay attention that they are displayed in the form like '8 p.m. - 6 a.m.'.
 
 <!-- BEGIN_UCB_LIB_TIME_OUTPUT -->
 
