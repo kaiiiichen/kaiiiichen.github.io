@@ -2,40 +2,40 @@ baseURL = "https://kai-chen.xyz/"
 title = "Kai Chen"
 theme = "PaperMod"
 [pagination]
-  pagerSize = 10
+pagerSize = 10
 enableRobotsTXT = true
 
 [params]
-  env = "production"
-  description = "Personal Homepage of Kai Chen"
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
-  TocOpen = false
-  disableThemeToggle = false
-  ShowSearch = true
+env = "production"
+description = "Personal Homepage of Kai Chen"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+ShowToc = true
+TocOpen = false
+disableThemeToggle = false
+ShowSearch = true
 
-  [params.profileMode]
-    enabled = true
-    title = "Kai Chen"
-    subtitle = "Personal Homepage"
-    imageWidth = 0
-    imageHeight = 0
+[params.profileMode]
+enabled = true
+title = "Kai Chen"
+subtitle = "Personal Homepage"
+imageWidth = 0
+imageHeight = 0
 
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/kaiiiichen"
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/kaiiiichen"
 
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/kaichen2005/"
-    
-  [[params.socialIcons]]
-    name = "email"
-    url = "mailto:kaichen0728@gmail.com"
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/kaichen2005/"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:kaichen0728@gmail.com"
 
 [params.assets]
 favicon = "/favicon.ico"
@@ -43,55 +43,61 @@ favicon16x16 = "/favicon-16x16.png"
 favicon32x32 = "/favicon-32x32.png"
 
 [menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 
-  [[menu.main]]
-    identifier = "notes"
-    name = "Notes"
-    url = "/notes/"
-    weight = 2
+[[menu.main]]
+identifier = "notes"
+name = "Notes"
+url = "/notes/"
+weight = 2
 
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projects/"
-    weight = 3
-    
-  [[menu.main]]
-    identifier = "roadmap"
-    name = "Roadmap"
-    url = "/roadmap/"
-    weight = 4
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 3
 
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 5
-    
-  [[menu.main]]
-    identifier = "search"
-    name = "Search"
-    url = "/search/"
-    weight = 6
+[[menu.main]]
+identifier = "tools"
+name = "Tools"
+url = "/tools/"
+weight = 4
 
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 7
+[[menu.main]]
+identifier = "roadmap"
+name = "Roadmap"
+url = "/roadmap/"
+weight = 5
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 6
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 7
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 8
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON"]
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 [build]
-  buildFuture = true
+buildFuture = true
