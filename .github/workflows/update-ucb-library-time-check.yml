@@ -1,4 +1,35 @@
-- name: Update markdown output
+name: Update UCB Library Time Check
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # fetch-depth: 0
+          fetch-depth: 0
+          submodules: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f scripts/requirements.txt ]; then pip install -r scripts/requirements.txt; fi
+
+      - name: Update markdown output
         run: |
           python scripts/update_ucb_library_time_check.py
 
@@ -6,10 +37,12 @@
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          
           if git diff --quiet; then
-            echo "No changes to commit."
-            exit 0
+            echo "No changes detected in library times. Skipping push."
+          else
+            echo "Changes detected. Updating repository..."
+            git add content/tools/ucb-library-time-check.md
+            git commit -m "chore(data): update UCB library hours [skip ci]"
+            git push
           fi
-          git add content/tools/ucb-library-time-check.md
-          git commit -m "chore(tools): update UCB library time output"
-          git push
