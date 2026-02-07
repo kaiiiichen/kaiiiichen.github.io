@@ -14,35 +14,33 @@ summary: "Show the latest opening status of all UC Berkeley Libraries."
 ```text
 ============================================================
 UC Berkeley Library Open Status
-Last Update: 2026-02-06 15:58:49 PST
+Last Update: 2026-02-06 18:45:25 PST
 Data Source: https://www.lib.berkeley.edu/hours
 ============================================================
 
-Now Open (20)：
-🟢 Art History/Classics Library — 9 a.m.-5 p.m.
-🟢 Bancroft Library
-🟢 Berkeley Law Library — 8 a.m.-6 p.m.
-🟢 Bioscience, Natural Resources & Public Health Library — 9 a.m.-5 p.m.
+Now Open (4)：
 🟢 Business Library — 7 a.m.-10 p.m.
-🟢 Chemistry, Astronomy & Physics Library — 9 a.m.-5 p.m.
 🟢 Doe Library — 8 a.m.-10 p.m.
-🟢 East Asian Library — 9 a.m.-5 p.m.
-🟢 Engineering & Mathematical Sciences Library — 9 a.m.-5 p.m.
-🟢 Environmental Design Library — 9 a.m.-5 p.m.
-🟢 Ethnic Studies Library — 10 a.m.-5 p.m.
 🟢 Graduate Services (study only) — 8 a.m.-10 p.m.
-🟢 Institute of Governmental Studies Library — 30 p.m.-5 p.m.
-🟢 Institute of Transportation Studies Library — 1 p.m.-5 p.m.
 🟢 Main (Gardner) Stacks — 9 a.m.-10 p.m.
-🟢 Morrison Library — 10 a.m.-5 p.m.
-🟢 Music Library — 9 a.m.-5 p.m.
-🟢 Newspapers & Microforms Library — 1 p.m.-4 p.m.
-🟢 Social Research Library — 10 a.m.-5 p.m.
-🟢 South/Southeast Asia Library (study only) — 10 a.m.-5 p.m.
 
-Now Closed (2)：
+Now Closed (18)：
+🔴 Art History/Classics Library
+🔴 Bancroft Library
+🔴 Berkeley Law Library
+🔴 Bioscience, Natural Resources & Public Health Library
+🔴 Chemistry, Astronomy & Physics Library
+🔴 East Asian Library
+🔴 Engineering & Mathematical Sciences Library
+🔴 Environmental Design Library
+🔴 Ethnic Studies Library
+🔴 Institute of Governmental Studies Library
+🔴 Institute of Transportation Studies Library
 🔴 Moffitt Library (temporarily closed)
-🔴 Systemwide Library Facility-North
+🔴 Morrison Library
+🔴 Music Library
+🔴 Newspapers & Microforms Library
+... and other 3 libraries are closed.
 
 Status Unknown (5)：
 ⚪ Print + scan
