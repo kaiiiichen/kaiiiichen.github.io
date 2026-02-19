@@ -17,6 +17,7 @@ ShowToc = true
 TocOpen = false
 disableThemeToggle = false
 ShowSearch = true
+author = "Kai Chen"
 
 [params.profileMode]
 enabled = true
@@ -78,9 +79,6 @@ identifier = "tags"
 name = "Tags"
 url = "/tags/"
 weight = 6
-
-[params.author]
-    name = "Kai Chen"
     
 [outputs]
 home = ["HTML", "RSS", "JSON"]
