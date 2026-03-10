@@ -14,13 +14,44 @@ summary: "Show the latest opening status of all UC Berkeley Libraries."
 ```text
 ============================================================
 UC Berkeley Library Open Status
-Last Update: 2026-03-10 15:40:56 PDT
+Last Update: 2026-03-10 16:01:53 PDT
 Data Source: https://www.lib.berkeley.edu/hours
 ============================================================
 
-❌ We're sorry. This update failed.
-Error: HTTPSConnectionPool(host='www.lib.berkeley.edu', port=443): Read timed out. (read timeout=20)
+Now Open (20)：
+🟢 Art History/Classics Library — 9 a.m.-8 p.m.
+🟢 Bancroft Library
+🟢 Berkeley Law Library — 8 a.m.-9 p.m.
+🟢 Bioscience, Natural Resources & Public Health Library — 9 a.m.-9 p.m.
+🟢 Business Library — 7 a.m.-10 p.m.
+🟢 Chemistry, Astronomy & Physics Library — 9 a.m.-10 p.m.
+🟢 Doe Library — 8 a.m.-6 a.m.
+🟢 East Asian Library — 9 a.m.-10 p.m.
+🟢 Engineering & Mathematical Sciences Library — 9 a.m.-11 p.m.
+🟢 Environmental Design Library — 9 a.m.-10 p.m.
+🟢 Ethnic Studies Library — 10 a.m.-5 p.m.
+🟢 Graduate Services (study only) — 8 a.m.-10 p.m.
+🟢 Institute of Transportation Studies Library — 1 p.m.-5 p.m.
+🟢 Main (Gardner) Stacks — 9 a.m.-2 a.m.
+🟢 Morrison Library — 10 a.m.-5 p.m.
+🟢 Music Library — 9 a.m.-8 p.m.
+🟢 Newspapers & Microforms Library — 1 p.m.-4 p.m.
+🟢 Social Research Library — 10 a.m.-5 p.m.
+🟢 South/Southeast Asia Library (study only) — 10 a.m.-5 p.m.
+🟢 Systemwide Library Facility-North — 12 p.m.-4 p.m.
 
+Now Closed (2)：
+🔴 Institute of Governmental Studies Library
+🔴 Moffitt Library (temporarily closed)
+
+Status Unknown (5)：
+⚪ Print + scan
+⚪ Berkeley Art Museum and Pacific Film Archive
+⚪ Environmental Design Archives
+⚪ Graduate Theological Union Library
+⚪ Lawrence Berkeley National Laboratory Library
+
+============================================================
 ```
 
 <!-- END_UCB_LIB_TIME_OUTPUT -->
