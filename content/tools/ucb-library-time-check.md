@@ -14,13 +14,12 @@ summary: "Show the latest opening status of all UC Berkeley Libraries."
 ```text
 ============================================================
 UC Berkeley Library Open Status
-Last Update: 2026-03-20 16:02:23 PDT
+Last Update: 2026-03-20 16:43:59 PDT
 Data Source: https://www.lib.berkeley.edu/hours
 ============================================================
 
-Now Open (19)：
+Now Open (18)：
 🟢 Art History/Classics Library — 9 a.m.-5 p.m.
-🟢 Bancroft Library
 🟢 Berkeley Law Library — 8 a.m.-6 p.m.
 🟢 Bioscience, Natural Resources & Public Health Library — 9 a.m.-5 p.m.
 🟢 Business Library — 7 a.m.-10 p.m.
@@ -39,7 +38,8 @@ Now Open (19)：
 🟢 Social Research Library — 10 a.m.-5 p.m.
 🟢 South/Southeast Asia Library (study only) — 10 a.m.-5 p.m.
 
-Now Closed (3)：
+Now Closed (4)：
+🔴 Bancroft Library
 🔴 Moffitt Library (temporarily closed)
 🔴 Newspapers & Microforms Library
 🔴 Systemwide Library Facility-North
