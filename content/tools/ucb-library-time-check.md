@@ -14,13 +14,39 @@ summary: "Show the latest opening status of all UC Berkeley Libraries."
 ```text
 ============================================================
 UC Berkeley Library Open Status
-Last Update: 2026-03-24 05:35:10 PDT
+Last Update: 2026-03-24 07:05:48 PDT
 Data Source: https://www.lib.berkeley.edu/hours
 ============================================================
 
-❌ We're sorry. This update failed.
-Error: HTTPSConnectionPool(host='www.lib.berkeley.edu', port=443): Read timed out. (read timeout=20)
+Now Open (1)：
+🟢 Business Library — 7 a.m.-10 p.m.
 
+Now Closed (21)：
+🔴 Art History/Classics Library
+🔴 Bancroft Library
+🔴 Berkeley Law Library
+🔴 Bioscience, Natural Resources & Public Health Library
+🔴 Chemistry, Astronomy & Physics Library
+🔴 Doe Library
+🔴 East Asian Library
+🔴 Engineering & Mathematical Sciences Library
+🔴 Environmental Design Library
+🔴 Ethnic Studies Library
+🔴 Graduate Services (study only)
+🔴 Institute of Governmental Studies Library
+🔴 Institute of Transportation Studies Library
+🔴 Main (Gardner) Stacks
+🔴 Moffitt Library (temporarily closed)
+... and other 6 libraries are closed.
+
+Status Unknown (5)：
+⚪ Print + scan
+⚪ Berkeley Art Museum and Pacific Film Archive
+⚪ Environmental Design Archives
+⚪ Graduate Theological Union Library
+⚪ Lawrence Berkeley National Laboratory Library
+
+============================================================
 ```
 
 <!-- END_UCB_LIB_TIME_OUTPUT -->
