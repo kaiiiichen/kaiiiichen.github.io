@@ -14,7 +14,7 @@ summary: "Show the latest opening status of all UC Berkeley Libraries."
 ```text
 ============================================================
 UC Berkeley Library Open Status
-Last Update: 2026-03-28 10:32:31 PDT
+Last Update: 2026-03-28 11:01:49 PDT
 Data Source: https://www.lib.berkeley.edu/hours
 ============================================================
 
